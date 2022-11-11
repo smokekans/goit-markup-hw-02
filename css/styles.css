@@ -57,6 +57,7 @@ ul{
 }
 
 .hat-link {
+    background-color: #2196f3;
     color: var(--primary-text-color);
 }
 
@@ -72,15 +73,19 @@ ul{
     color: var(--title-text-colot);
 }
 
+.team {
+    background-color: #F5F4FA;
+}
+
 .team-title {
     color: var(--title-text-colot);
 }
 
-.team-name {
+.team-name, .card-name {
     color: var(--title-text-colot);
 }
 
-.team-position {
+.team-position, .card-filter{
     color: var(--accent-color);
 }
 
@@ -98,4 +103,18 @@ ul{
 
 .footer-contact {
     color: rgba(255, 255, 255, 0.6);
+}
+
+.button button {
+    color: var(--title-text-colot);
+}
+
+.button button:hover,
+button:focus {
+    background-color: #2196f3;
+    color: var(--primary-text-color);
+}
+
+.card-background {
+    background-color: var(--primary-text-color);
 }
