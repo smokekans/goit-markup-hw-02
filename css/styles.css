@@ -6,6 +6,9 @@
 body {
     background-color: #F5F5F5;
     color: #212121;
+
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
 }
 
 ul{
@@ -26,14 +29,22 @@ ul{
 
 .logo{
     color: var(--title-text-colot);
+    font-family: Raleway;
+    font-size: 26px;
+    line-height: 1.19;
 }
 
 .logo-color {
     color: #2196f3;
+    font-family: Raleway;
 }
 
 .site-nav .link {
     color: var(--title-text-colot);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover, .link:focus {
@@ -42,6 +53,10 @@ ul{
 
 .contact-nav .link {
     color: var(--accent-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.02em;
 }
 
 .contact-nav .link:hover, .link:focus {
@@ -54,59 +69,108 @@ ul{
 
 .hat-title {
     color: var(--primary-text-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
-.hat-link {
+.hat-button {
     background-color: #2196f3;
     color: var(--primary-text-color);
 }
 
+.hat-button-text {
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
 .features-title {
     color: var(--title-text-colot);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 
 .features-text {
     color:  var(--accent-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
 }
 
 .action-title {
     color: var(--title-text-colot);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
 .team {
     background-color: #F5F4FA;
 }
 
+.team-image {
+
+}
+
 .team-title {
     color: var(--title-text-colot);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
 }
 
-.team-name, .card-name {
+.team-name {
     color: var(--title-text-colot);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
-.team-position, .card-filter{
+.card-name {
+    color: var(--title-text-colot);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+.team-position {
     color: var(--accent-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
 }
 
-.footer {
-    background-color: #2F303A;
-}
-
-.footer-logo {
-    color:var(--primary-text-color);
-}
-
-.footer-address {
-    color: var(--primary-text-color);
-}
-
-.footer-contact {
-    color: rgba(255, 255, 255, 0.6);
+.card-filter {
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    text-align: center;
 }
 
 .button button {
     color: var(--title-text-colot);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
 }
 
 .button button:hover,
@@ -117,4 +181,30 @@ button:focus {
 
 .card-background {
     background-color: var(--primary-text-color);
+}
+
+.footer {
+    background-color: #2F303A;
+}
+
+.footer-logo {
+    color:var(--primary-text-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.footer-data {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.footer-address {
+    color: var(--primary-text-color);
+}
+
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);
 }
