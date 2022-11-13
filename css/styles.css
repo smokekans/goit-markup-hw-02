@@ -2,6 +2,7 @@
     --primary-text-color: #FFFFFF;
     --title-text-colot: #212121;
     --accent-color: #757575;
+    --accent-text-color: #2196f3;
 }
 body {
     background-color: #F5F5F5;
@@ -36,7 +37,7 @@ ul{
 }
 
 .logo-color {
-    color: #2196f3;
+    color: var(--accent-text-color);
     font-family: Raleway;
 }
 
@@ -54,7 +55,11 @@ ul{
 }
 
 .site-nav .link:hover, .link:focus {
-    color: #2196f3;
+    color: var(--accent-text-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-text-color);
 }
 
 .contact-nav .link {
@@ -67,7 +72,7 @@ ul{
 }
 
 .contact-nav .link:hover, .link:focus {
-    color: #2196f3;
+    color: var(--accent-text-color);
 }
 
 .hat{
@@ -85,11 +90,7 @@ ul{
 }
 
 .hat-button {
-    background-color: #2196f3;
-    color: var(--primary-text-color);
-}
-
-.hat-button-text {
+    background-color: var(--accent-text-color);
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 16px;
@@ -174,11 +175,12 @@ ul{
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
+    cursor: pointer;
 }
 
 .button button:hover,
 button:focus {
-    background-color: #2196f3;
+    background-color: var(--accent-text-color);
     color: var(--primary-text-color);
 }
 
@@ -203,6 +205,7 @@ button:focus {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    font-style: normal;
 }
 
 .footer-address {
@@ -213,4 +216,9 @@ button:focus {
 .footer-contact {
     color: rgba(255, 255, 255, 0.6);
     text-decoration: none;
+}
+
+.footer-address:focus, .footer-address:hover,
+.footer-contact:focus, .footer-contact:hover {
+    color: var(--accent-text-color);
 }
