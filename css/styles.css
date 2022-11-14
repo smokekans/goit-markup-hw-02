@@ -218,7 +218,6 @@ button:focus {
     text-decoration: none;
 }
 
-.footer-address:focus, .footer-address:hover,
 .footer-contact:focus, .footer-contact:hover {
     color: var(--accent-text-color);
 }
