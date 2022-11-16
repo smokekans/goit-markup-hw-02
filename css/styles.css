@@ -13,7 +13,6 @@ body {
     color: var(--title-text-colot);
 
     font-family: Roboto, sans-serif;
-    letter-spacing: 0.03em;
 }
 
 ul {
@@ -37,12 +36,14 @@ ul {
     font-family: Raleway;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
 .logo-color {
     color: var(--accent-text-color);
     font-family: Raleway;
+    letter-spacing: 0.03em;
 }
 
 .site-nav .link {
@@ -94,7 +95,6 @@ ul {
 .hero-button {
     background-color: var(--accent-text-color);
     color: var(--primary-text-color);
-    font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
@@ -108,24 +108,24 @@ ul {
 
 .features-title {
     color: var(--title-text-colot);
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .features-text {
     color: var(--accent-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .action-title {
     color: var(--title-text-colot);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
@@ -135,9 +135,9 @@ ul {
 
 .team-title {
     color: var(--title-text-colot);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
@@ -146,12 +146,12 @@ ul {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
 .card-name {
     color: var(--title-text-colot);
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
@@ -160,25 +160,23 @@ ul {
 
 .team-position {
     color: var(--accent-color);
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
 .card-filter {
     color: var(--accent-color);
-    font-weight: 400;
-    font-size: 16px;
     line-height: 1.88;
+    letter-spacing: 0.03em;
     text-align: center;
 }
 
 .filters-button {
     color: var(--title-text-colot);
-    font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
+    letter-spacing: 0.03em;
     text-align: center;
     cursor: pointer;
 }
@@ -203,13 +201,14 @@ ul {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
 .footer-data {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     font-style: normal;
 }
 
