@@ -103,7 +103,7 @@ ul {
 
 .hero-button:focus, 
 .hero-button:hover {
-    color: var(--primary-text-color);
+    background-color: #188CE8;
 }
 
 .features-title {
@@ -222,7 +222,8 @@ ul {
     color: var(--contact-text-color);
     text-decoration: none;
 }
-
+.footer-address:focus,
+.footer-address:hover,
 .footer-contact:focus, 
 .footer-contact:hover {
     color: var(--accent-text-color);
